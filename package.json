@@ -1,0 +1,21 @@
+{
+  "name": "olive-express",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://OlhaLushina.github.io/olive-express",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /olive-express/"
+  },
+  "keywords": [],
+  "author": "Olha Lushina <olga.lushina.ua@gmail.com>",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
+}
